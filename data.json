@@ -1,0 +1,121 @@
+{
+    "data": [
+        {
+            "question": "What is the capital of France?",
+            "option1": "Paris",
+            "option2": "Marseille",
+            "option3": "Lyon",
+            "option4": "Nice",
+            "answer": "option1",
+            "description": "Paris is the capital of France."
+        },
+        {
+            "question": "What is the capital of Japan?",
+            "option1": "Tokyo",
+            "option2": "Kyoto",
+            "option3": "Osaka",
+            "option4": "Nagoya",
+            "answer": "option1",
+            "description": "Tokyo is the capital of Japan."
+        },
+        {
+            "question": "What is the capital of South Korea?",
+            "option1": "New York City",
+            "option2": "Los Angeles",
+            "option3": "Chicago",
+            "option4": "Seoul",
+            "answer": "option4",
+            "description": "Seoul is the capital of South Korea."
+        },
+        {
+            "question": "What is the capital of the United States?",
+            "option1": "New York City",
+            "option2": "Los Angeles",
+            "option3": "Chicago",
+            "option4": "Washington, D.C.",
+            "answer": "option4",
+            "description": "Washington, D.C. is the capital of the United States."
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "option1": "Earth",
+            "option2": "Mars",
+            "option3": "Venus",
+            "option4": "Jupiter",
+            "answer": "option2",
+            "description": "Mars is known as the Red Planet due to its reddish appearance."
+        },
+        {
+            "question": "Who wrote the play ‘Romeo and Juliet’?",
+            "option1": "William Wordsworth",
+            "option2": "William Shakespeare",
+            "option3": "Jane Austen",
+            "option4": "Charles Dickens",
+            "answer": "option2",
+            "description": "William Shakespeare wrote the famous play ‘Romeo and Juliet.’"
+        },
+        {
+            "question": "Who is the father of Ravanasura??",
+            "option1": "Agastya",
+            "option2": "Vishravasu",
+            "option3": "Shiva",
+            "option4": "Gatodgaj",
+            "answer": "option2",
+            "description": "Vishravasu is the father of Ravanasura"
+        },
+        {
+            "question": "Where is the White House located?",
+            "option1": "New York City",
+            "option2": "Los Angeles",
+            "option3": "Chicago",
+            "option4": "Washington, D.C.",
+            "answer": "option4",
+            "description": "The White House is located in Washington, D.C."
+        },
+        {
+            "question": "What is the largest planet in our solar system?",
+            "option1": "Earth",
+            "option2": "Jupiter",
+            "option3": "Saturn",
+            "option4": "Mars",
+            "answer": "option2",
+            "description": "Jupiter is the largest planet in our solar system."
+        },
+        {
+            "question": "In which country you find Fujain Tulou?",
+            "option1": "China",
+            "option2": "Butan",
+            "option3": "Japan",
+            "option4": "Thailad",
+            "answer": "option1",
+            "description": "China joined the International Convention for the Protection of World Cultural and Natural Heritage in 1985 and is home to 57 World Heritage Sites today. Chinese architecture boasts a rich and diverse heritage with its influence extending to countries like Japan, Korea and Mongolia."
+        },
+        {
+            "question": "What is the time complexity of a binary search algorithm?",
+            "option1": "O(1)",
+            "option2": "O(log n)",
+            "option3": "O(n)",
+            "option4": "O(n log n)",
+            "answer": "option2",
+            "description": "The time complexity of a binary search algorithm is O(log n)."
+        },
+        {
+            "question": "Time complexity of binary search?",
+            "option1": "O(1)",
+            "option2": "O(log n)",
+            "option3": "O(n)",
+            "option4": "O(n log n)",
+            "answer": "option2",
+            "description": "Binary search: O(log n)."
+        },
+        {
+            "question": "Purpose of Recursion in programming?",
+            "option1": "Improve readability.",
+            "option2": "Solve problems by breaking them down.",
+            "option3": "Avoid loops.",
+            "option4": "Reduce memory usage.",
+            "answer": "option2",
+            "description": "Recursion: problem breakdown."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="https://">
+    <xs:element name="rollno" type="xs:int">
+    </xs:element>
+    <xs:element name="name" type="xs:string">
+    </xs:element>
+    <xs:element name="email">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="to" type="xs:string">
+                </xs:element>
+                <xs:element name="from" type="xs:string">
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

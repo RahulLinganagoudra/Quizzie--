@@ -1,0 +1,140 @@
+:root {
+    --bg-color: #f5f0e1;
+    --option-default-color: #ffc13b;
+    --option-highlighted-color: #ff6e40;
+    --title-bar-color: #1e3d59;
+    --form-color: #1e3d59b4;
+}
+
+#main {
+    background-color: var(--bg-color);
+    width: 512px;
+    align-content: center;
+    height: 512px;
+    border-radius: 20px;
+}
+
+#score {
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 0%;
+    
+}
+p{
+    color: hsl(342, 100%, 50%);
+}
+#scoretext,
+#totaltext {
+    background-color: var(--option-default-color);
+ 
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#scoretext{
+    margin-bottom: 0%;
+    margin-left: 20px;
+    text-align: center;
+}#totaltext{
+    margin-bottom: 0%;
+    margin-right: 20px;
+    text-align: center;
+}
+#title-bar {
+    background-color: var(--title-bar-color);
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    outline-color: black;
+}
+
+#title {
+    color: var(--option-highlighted-color);
+}
+
+.formcontainer {
+    background-color: var(--form-color);
+    width: 512px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+label {
+    display: block;
+    align-content: center;
+}
+
+.datacontainer input[type="radio"] {
+    display: none;
+}
+
+.datacontainer input[type="radio"]+label {
+    background-color: var(--option-default-color);
+    border: 2px solid #000;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    margin: 25px auto;
+    border-radius: 50px;
+}
+
+.datacontainer input[type="radio"]:checked+label {
+    background-color: var(--option-highlighted-color);
+    border: 2px solid #000;
+    border-color: #000;
+    font-size: 20px;
+
+    width: 100%;
+    height: 50px;
+    margin: 25px auto;
+    border-radius: 50px;
+}
+
+.datacontainer {
+
+    text-align: center;
+    width: 50%;
+    align-content: center;
+    height: 50px;
+    margin: 25px auto;
+}
+
+#formsubmit {
+    background-color: var(--option-highlighted-color);
+    padding: 20px;
+    width: 200px;
+    align-content: center;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+#formsubmit:active {
+    background-color: var(--option-defaulr-color);
+    border-radius: 10px;
+    padding: 20px;
+    align-content: center;
+    margin: 25px;
+    border-radius: 50px;
+}
+
+body {
+    background-color: var(--bg-color);
+    align-content: center;
+}
+
+#question,
+#description {
+    border-radius: 20px;
+    background-color: var(--bg-color);
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+}

@@ -1,0 +1,6 @@
+<!DOCTYPE stud [
+    <!ELEMENT stud (rollno,name,pass)>
+    <!ELEMENT rollno (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT pass (#PCDATA)>
+]>

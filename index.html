@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzie!!!</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <script src="index.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="title-bar">
+        <p id="title">
+            Quizzie
+        </p>
+    </div>
+    <hr size="5px" color="black">
+    <div id="formcontainer" class="formcontainer" style="font-family: Arial, Helvetica, sans-serif;">
+        <span id="score">
+            <p id="scoretext"></p>
+            <p id="totaltext"></p>
+        </span>
+        <div class="formitem" id="question">
+        </div>
+        <hr style="width: 10px;">
+        <form id="main">
+            <div class="datacontainer">
+                <input type="radio" id="option1" name="option" value="option1" onchange="showButton()">
+                <label class="choice" for="option1" id="label1"></label>
+                <br />
+            </div>
+            <div class="datacontainer">
+                <input type="radio" id="option2" name="option" value="option2" onchange="showButton()">
+                <label class="choice" for="option2" id="label2"></label>
+                <br />
+            </div>
+            <div class="datacontainer">
+                <input type="radio" id="option3" name="option" value="option3" onchange="showButton()">
+                <label class="choice" for="option3" id="label3"></label>
+                <br />
+            </div>
+            <div class="datacontainer">
+                <input type="radio" id="option4" name="option" onchange="showButton()" value="option4">
+                <label class="choice" for="option4" id="label4" ></label>
+                <br />
+            </div>
+
+            <div id="nextbtn" style="margin:0 auto;width: 50%;">
+                <input id="formsubmit"  type="button" value="CheckAnswer" onclick="onSubmit()"></input>
+            </div>
+        </form>
+        <hr style="width: 10px;">
+        <div id="description"></div>
+    </div>
+    <div id="result">
+
+    </div>
+</body>
+
+</html>

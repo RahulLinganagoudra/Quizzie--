@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!DOCTYPE email [
+<!ELEMENT email (to, from, body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+<root>
+    <email>
+        <to></to>
+        <from></from>
+        <body></body>
+    </email>
+
+</root>
